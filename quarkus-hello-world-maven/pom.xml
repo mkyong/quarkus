@@ -68,6 +68,11 @@ https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM
         </executions>
       </plugin>
       <plugin>
+        <groupId>io.quarkus</groupId>
+        <artifactId>quarkus-bootstrap-maven-plugin</artifactId>
+        <version>${quarkus-plugin.version}</version>
+      </plugin>
+      <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>${compiler-plugin.version}</version>
       </plugin>
